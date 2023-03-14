@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  resize: both;
+  overflow: auto;
+  
+  background-color: skyblue;
+  border: 1px solid grey;
+  padding: 4px;
+
+  display: grid;
+  grid-template-rows: repeat(2, min(100px, 200px));
+  grid-template-columns: repeat(5, max(100px, 200px));
+  gap: 4px;
+
+}
+
+.grid-item {
+  background-color: #444;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+
+}
+
